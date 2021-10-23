@@ -6,7 +6,9 @@
     <meta name="description" content="">
     <title>C&G Iran</title>
 
-
+    <link rel="preconnect" href="//fdn.fontcdn.ir">
+    <link rel="preconnect" href="//v1.fontapi.ir">
+    <link href="https://v1.fontapi.ir/css/Yekan" rel="stylesheet">
 
 
     <!-- Bootstrap core CSS -->
@@ -37,19 +39,20 @@
     <!-- Custom styles for this template -->
     <!-- Custom styles for this template -->
     <link href="{{asset('css/blog.rtl.css')}}" rel="stylesheet">
+    <link href="{{asset('css/irescoHeader.css')}}" rel="stylesheet">
 </head>
 <body>
 
-<div class="container">
-    <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-4 pt-1">
+<div class="container" >
+    <header class="blog-header py-3" >
+        <div class="row flex-nowrap justify-content-between align-items-center" >
+            <div class="col-2 pt-1">
                 <a class="link-secondary" href="#">نمیدونم چیچی</a>
             </div>
-            <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="#">مرجع کربن و گرافیت ایران</a>
+            <div class="col-8 text-center">
+                <a class="blog-header-logo text-dark ir_maintitle"  href="#">مرجع تخصصی کربن و گرافیت ایران</a>
             </div>
-            <div class="col-4 d-flex justify-content-end align-items-center">
+            <div class="col-2 d-flex justify-content-end align-items-center">
                 <a class="link-secondary" href="#" aria-label="بحث">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>بحث</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
                 </a>
@@ -58,8 +61,13 @@
         </div>
     </header>
 
-    <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
+    <div class="nav-scroller py-1 mb-2 ">
+        <nav class="nav navbar-light d-flex justify-content-start" style="background-color: #a1d4f6;">
+            @foreach ($navbars as $navbarItem)
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ route($navbarItem->route) }}">{{ $navbarItem->name }}</a>
+                </li>
+            @endforeach
             <a class="p-2 link-secondary" href="#">کربن</a>
             <a class="p-2 link-secondary" href="#">گرافیت</a>
             <a class="p-2 link-secondary" href="#">درباره ما</a>
@@ -68,13 +76,9 @@
     </div>
 
 
-    <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
-        <div class="col-md-6 px-0">
-            <h1 class="display-4 fst-italic">یه dssdf تیتر مهم</h1>
-            <p class="lead my-3">محتوای اون تیتر مهم</p>
-            <p class="lead mb-0"><a href="#" class="text-white fw-bold">ادامه مطلب</a></p>
-        </div>
-    </div>
+{{--    <div class="p-4 p-md-5 mb-4 text-white rounded " style="height: 300px ; background-image:url("{{asset('images/header.jpg')}}")" >--}}
+        <img src="{{asset('images/headertest.jpg')}}" class="img-fluid" height="300px" alt="header place holder">
+{{--    </div>--}}
 
 
 
