@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
+use phpDocumentor\Reflection\Types\Integer;
 
 class categoriesSeeder extends Seeder
 {
@@ -18,7 +19,9 @@ class categoriesSeeder extends Seeder
         for ($i=0;$i<7;$i++) {
             DB::table('categories')->insert([
                 'name' => Str::random(15),
-                'description' => Str::random(50)
+                'description' => Str::random(50),
+                'addToNavbar'=> rand(0,1)
+
             ]);
         }
     }

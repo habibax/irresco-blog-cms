@@ -17,6 +17,7 @@ class CreateCategoriesTable extends Migration
             $table->id('id_category');
             $table->string('name');
             $table->string('description');
+            $table->integer('addToNavbar');
             $table->timestamps();
         });
     }
