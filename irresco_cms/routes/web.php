@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\testController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +19,4 @@ Route::get('/', function () {
 Route::get('/homepage', function () {
     return view('homepage');
 });
+Route::get('/testcat',[testController::class,'test']);
