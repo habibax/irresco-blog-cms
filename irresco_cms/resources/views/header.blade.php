@@ -76,7 +76,7 @@
 
 
 {{--    <div class="p-4 p-md-5 mb-4 text-white rounded " style="height: 300px ; background-image:url("{{asset('images/header.jpg')}}")" >--}}
-        <img src="{{asset('images/headertest.jpg')}}" class="img-fluid" height="300px" alt="header place holder">
+        <img src="{{asset('images/headertest.jpg')}}" class="img-fluid " height="300px" alt="header place holder">
 {{--    </div>--}}
 
     <div class="nav-scroller p-0 m-0  ">
