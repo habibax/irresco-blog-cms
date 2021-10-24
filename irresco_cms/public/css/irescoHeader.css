@@ -13,7 +13,8 @@
     padding: 0px;
 }
 .ir_header{
-    background-color: #036b6e;
+    /*background-color: #036b6e;*/
+    background-image: linear-gradient( #036b6e,#30c5c3);
     height: 100px;
     margin: 0px;
     padding: 0px;
@@ -28,6 +29,17 @@ body{
 }
 .ir_navItem{
     font-family: 'Yekan', SansSerif;
-    color: #0d6efd;
+    font-size: small;
+    color: #1d4a5c;
     text-decoration: none;
+}
+.ir_text1{
+    font-family: 'Yekan', SansSerif;
+    font-size: large;
+    color: #15607b;
+}
+.ir_text2{
+    font-family: 'Yekan', SansSerif;
+    font-size: medium;
+    color: #15607b;
 }

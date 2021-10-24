@@ -64,10 +64,13 @@
     <div class="nav-scroller p-0 m-0  ">
         <nav class="nav navbar-light d-flex justify-content-start" style="background-color: #a1d4f6;">
 
-            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">کربن</a>
-            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">گرافیت</a>
-            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">درباره ما</a>
-            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">فروشگاه</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">صفحه اصلی</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">مواد کربنی و گرافیتی</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">محصولات کربنی و گرافیتی</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">کاربردها</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">خدمات مشاوره فنی</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">دانلودها</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">تماس با ما</a>
         </nav>
     </div>
 
@@ -75,16 +78,30 @@
 {{--    <div class="p-4 p-md-5 mb-4 text-white rounded " style="height: 300px ; background-image:url("{{asset('images/header.jpg')}}")" >--}}
         <img src="{{asset('images/headertest.jpg')}}" class="img-fluid" height="300px" alt="header place holder">
 {{--    </div>--}}
-    <div class="input-group">
-        <div class="form-outline">
-            <input type="search" id="form1" class="form-control" />
-            <label class="form-label" for="form1">Search</label>
-        </div>
-        <button type="button" class="btn btn-primary">
-            <i class="fas fa-search"></i>
-        </button>
-    </div>
 
+    <div class="nav-scroller p-0 m-0  ">
+        <nav class="nav navbar-light d-flex justify-content-start" style="background-color: #a1d4f6;">
+
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">ثبت نام</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">ورود اعضای باشگاه مرجع تخصصی کربن و گرافیت</a>
+        </nav>
+    </div>
+    <div class="p-4   text-white d-flex justify-content-center rounded bg-light">
+        <div class="col-md-6 px-0 m-0 d-flex justify-content-center ">
+            <p class="ir_text1">جستجوی مواد و محصولات کربنی و گرافیتی</p>
+        </div>
+    </div>
+    <div class=" text-white d-flex justify-content-center rounded bg-light">
+        <div class="col-md-6 px-0 d-flex justify-content-center ">
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="search" aria-label="search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                    <span class="input-group-text ir_text2" id="basic-addon2">جست و جو</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </div>
 
