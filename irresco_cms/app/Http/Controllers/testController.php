@@ -10,6 +10,7 @@ class testController extends Controller
 {
     public function test()
     {
-        return SubCategory::find(7)->getPosts;
+        return view('test');
+//        return SubCategory::find(7)->getPosts;
     }
 }

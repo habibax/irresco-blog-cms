@@ -3,4 +3,31 @@
     text-decoration: none;
     font-size: xx-large;
     color:#086968;
+
+
+}
+.ir_nomargin{
+    margin: 0px;
+}
+.ir_nopadding{
+    padding: 0px;
+}
+.ir_header{
+    background-color: #036b6e;
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.ir_textOutline{
+    -webkit-text-stroke: 1px #ffffff;
+}
+body{
+    margin: 0px;
+}
+.ir_navItem{
+    font-family: 'Yekan', SansSerif;
+    color: #0d6efd;
+    text-decoration: none;
 }
