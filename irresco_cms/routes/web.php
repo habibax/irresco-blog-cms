@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\testController;
+use App\Http\Controllers\AboutUsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,11 +13,12 @@ use App\Http\Controllers\testController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/homepage', function () {
     return view('homepage');
 });
 Route::get('/testcat',[testController::class,'test']);
+Route::get('/aboutUs',[AboutUsController::class,'aboutUsMain']);
