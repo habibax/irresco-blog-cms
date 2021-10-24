@@ -20,5 +20,8 @@ use App\Http\Controllers\AboutUsController;
 Route::get('/', function () {
     return view('homepage');
 });
+Route::get('/post/carbon-materials', function () {
+    return view('post');
+});
 Route::get('/testcat',[testController::class,'test']);
 Route::get('/aboutUs',[AboutUsController::class,'aboutUsMain']);

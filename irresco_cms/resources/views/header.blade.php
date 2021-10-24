@@ -65,7 +65,7 @@
         <nav class="nav navbar-light d-flex justify-content-start" style="background-color: #a1d4f6;">
 
             <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="/">صفحه اصلی</a>
-            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">مواد کربنی و گرافیتی</a>
+            <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="/post/carbon-materials">مواد کربنی و گرافیتی</a>
             <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">محصولات کربنی و گرافیتی</a>
             <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">کاربردها</a>
             <a class="p-2 me-sm-4 mr-4 link-secondary ir_navItem" href="#">خدمات مشاوره فنی</a>

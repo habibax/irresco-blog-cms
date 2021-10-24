@@ -43,3 +43,11 @@ body{
     font-size: medium;
     color: #15607b;
 }
+.ir_text3{
+    font-family: 'Yekan', SansSerif;
+    font-size: small;
+    color: #15607b;
+}
+.ir_br{
+    border: #15607b solid 2px;
+}

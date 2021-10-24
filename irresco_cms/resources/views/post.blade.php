@@ -1,3 +1,5 @@
+@include('header')
+<div class="container">
 <div class="row">
     <div class="col-md-8">
         <h3 class="pb-4 mb-4 fst-italic border-bottom">
@@ -74,4 +76,8 @@
     </div>
 
 
+    @include('sidebar')
 </div>
+</div>
+
+@include('footer')
